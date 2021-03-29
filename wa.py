@@ -11,8 +11,8 @@ def judul():
  \______/ |__/     |__/ \______/       |_______/  \______/ |__/     |__/|_______/ |________/|__/  |__/
                                                                                                                                                                                                     
                                    By : Hi Donkey
- {2}    --={3}[ {0}{5}Author: Victor , Rifki {3}]{2}=--
-{4}| {2}-- --={3}[ {0}{5}Version:1  {3}]{2}=-- -- {4}|
+ {2}    --={3}[ {0}{5}Created: Victor , Rifki {3}]{2}=--
+{4}| {2}-- --={3}[ {0}{5}Version: -  {3}]{2}=-- -- {4}|
 | {2}-- --={3}[ {0}{5}Youtube : Hi Donkey {3}]{2}=-- -- {4}|
 | {2}-- --={3}[ {0}{5}BOM SMS  ~ Hi Donkey {3}]{2}=-- -- {4}|
 {0}
@@ -20,13 +20,13 @@ def judul():
 
 bold = '\033[1m'
 underline = '\033[4m'
-black = '\033[90m'; red = '\033[91m'; green = '\033[92m'; yellow = '\033[93m'; blue = '\033[94m'; magenta = '\033[95m'; cyan = '\033[96m'; white = '\033[97m'
+black = '\033[90m'; red = '\033[91m'; green = '\033[92m'; yellow = '\033[93m'; blue = '\033[94m'; magenta = '\033[95m'; cyan = '\033[96m'; red = '\033[97m'
 end_color = '\033[0m'
 
 def tampil_pilihan():
     print('{0}[ MENU BOM SMS ]{1} '.format(green,end_color))
-    print(' 1) BOM SMS 3')
-    print(' 2) BOM SMS JD.ID\n')
+    print(' 1) BOM SMS 3') '.format(yellow,end_color))
+    print(' 2) BOM SMS JD.ID\n') '.format(yellow,end_color))
 
 ulang = ''
 while ulang != 'n':
