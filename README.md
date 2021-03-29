@@ -1,2 +1,0 @@
-# Boomer-Whatsapp
-Boomer
