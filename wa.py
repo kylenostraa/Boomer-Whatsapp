@@ -25,8 +25,8 @@ end_color = '\033[0m'
 
 def tampil_pilihan():
     print('{0}[ MENU BOM SMS ]{1} '.format(green,end_color))
-    print(' 1) BOM SMS 3') '.format(yellow,end_color))
-    print(' 2) BOM SMS JD.ID\n') '.format(yellow,end_color))
+    print(' 1) BOM SMS 3') green,end_color 
+    print(' 2) BOM SMS JD.ID\n') 
 
 ulang = ''
 while ulang != 'n':
