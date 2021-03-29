@@ -67,7 +67,7 @@ while ulang != 'n':
             else:
                 print("{0}Status =>{1}{2}".format(red,res.text,end_color))
 
-    tombol = {1:bom_3,2:bom_jd}
+    tombol = {1:bom_tri,2:bom_jd}
 
     judul()
     tampil_pilihan()
