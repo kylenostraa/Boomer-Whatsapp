@@ -29,7 +29,7 @@ def tampil_pilihan():
     print(' 2) BOM SMS JD.ID\n') 
 
 ulang = ''
-yellow ulang != 'n':
+while ulang != 'n':
     def pilihan(arg):
         try:
             func = tombol.get(arg)
